@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header{
+    height: 90vh;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+        url("banner.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: grid;
+    place-items: center; 
+    align-items: center;
+        color:whitesmoke;
+    padding:300px;
+
+
+}
+
+
