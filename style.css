@@ -20,10 +20,10 @@ ul{
 }
 
 .header{
-    height: 90vh;
+    height: 50vh;
 
     background-image:
-        linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+       
         url("banner.jpg");
 
     background-repeat: no-repeat;
@@ -34,9 +34,130 @@ ul{
     place-items: center; 
     align-items: center;
         color:whitesmoke;
-    padding:300px;
+padding: 300px;
+
+}
+
+
+
+
+.button{
+ background-color: rgb(48, 48, 243);
+width: 150px;
+border-radius: 4px;
+color:azure;
+padding: 10px;
+cursor: pointer;
+ font-size: 16px;
 
 
 }
+
+
+.btn{
+
+background-color: rgb(48, 48, 243);
+width: 150px;
+border-radius: 4px;
+color:azure;
+padding: 10px;
+cursor: pointer;
+ font-size: 16px;
+position: absolute;
+
+
+}
+
+
+
+
+
+main{
+    margin-top: 50px;
+}
+
+
+
+.meet{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.speakers{
+       display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+.card{
+    
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.intro{
+
+
+margin-left: 20px;
+color:rgb(4, 4, 236)
+
+
+}
+
+
+.nm{
+
+
+
+}
+
+
+.company {
+
+
+
+}
+
+
+
+
+.pricing{ 
+    display: flex;
+}
+
+
+
+
+
+.standard{
+    background-color: aliceblue;
+    height: 600px;
+    width: 600px;
+}
+
+
+
 
 
